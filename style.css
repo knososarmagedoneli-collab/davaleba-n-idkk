@@ -1,0 +1,57 @@
+body {
+height: 100%;
+margin: 0;
+font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+background: #fefefe;
+}
+
+
+.wrap {
+min-height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+box-sizing: border-box;
+}
+
+
+.card {
+text-align: center;
+line-height: 1.6;
+max-width: 700px;
+background: #ffffff;
+padding: 20px 30px;
+border-radius: 16px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+
+h2 {
+margin-bottom: 12px;
+}
+
+
+p {
+margin: 8px 0;
+}
+
+
+mark {
+background: #fff59d;
+padding: 0 4px;
+}
+
+
+ins {
+text-decoration: underline;
+color: #2b6cb0;
+}
+
+
+small {
+display: block;
+margin-top: 10px;
+color: #666;
+font-size: 0.9em;
+}
